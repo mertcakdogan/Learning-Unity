@@ -7,45 +7,47 @@ public class Ders3 : MonoBehaviour
     int a = 2, b = 3;
     void Start()
     {
+
+        // Ä°f - Else YapÄ±sÄ±
       /*
        if (a > b)
         {
-            Debug.Log("a, b'den büyüktür.");
+            Debug.Log("a, b'den bï¿½yï¿½ktï¿½r.");
         }
         else 
         {
-            Debug.Log("a, b'den küçüktür.");
+            Debug.Log("a, b'den kï¿½ï¿½ï¿½ktï¿½r.");
         }
       */
 
         if (a == b)
         {
-            Debug.Log("a, b'ye eþittir.");
+            Debug.Log("a, b'ye eï¿½ittir.");
         }
         else 
         {
-            Debug.Log("a, b'ye eþit deðildir.");
+            Debug.Log("a, b'ye eï¿½it deï¿½ildir.");
         }
 
         /*
            
-        Karþýlaþtýrma Operatörleri
+        Karï¿½ï¿½laï¿½tï¿½rma Operatï¿½rleri
 
-        < Küçükse
-        > Büyükse
-        <= Küçük veya eþitse
-        >= Büyük veya eþitse
-        == Eþitse
-        != Eþit deðilse
+        < Kï¿½ï¿½ï¿½kse
+        > Bï¿½yï¿½kse
+        <= Kï¿½ï¿½ï¿½k veya eï¿½itse
+        >= Bï¿½yï¿½k veya eï¿½itse
+        == Eï¿½itse
+        != Eï¿½it deï¿½ilse
          */
 
         /*
          
-         Mantýksal Operatörler
+         Mantï¿½ksal Operatï¿½rler
 
         && Ve
         || Veya
-        ! Deðil
+        ! Deï¿½il
 
          */
     }

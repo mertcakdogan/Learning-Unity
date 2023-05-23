@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Ders1 : MonoBehaviour
 {
+
+    // Değişkenler
+
      string kanal_adi = "Mert Can";
      int abone_sayisi = 545;
      float boy = 1.75f;

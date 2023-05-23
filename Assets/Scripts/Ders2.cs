@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ders2 : MonoBehaviour
 {
+
+    // For DÃ¶ngÃ¼sÃ¼
    /*
     int miktar = 10;
     void Start()
@@ -12,7 +14,7 @@ public class Ders2 : MonoBehaviour
         {
             if (sayi %2 != 0) continue;
             
-            Debug.Log("Sayýmýzýn Deðeri: " + sayi);
+            Debug.Log("Sayï¿½mï¿½zï¿½n Deï¿½eri: " + sayi);
             
         }
     }
@@ -25,16 +27,16 @@ public class Ders2 : MonoBehaviour
 
        string[] arabalar = new string[] {"BMW", "Mercedes", "Audi"};
 
-       string[] sehirler = {"Ankara", "Ýstanbul", "Ýzmir"};
+       string[] sehirler = {"Ankara", "ï¿½stanbul", "ï¿½zmir"};
 
-       // Debug.Log("2. arabanýn markasý: " + arabalar[1]);
+       // Debug.Log("2. arabanï¿½n markasï¿½: " + arabalar[1]);
 
         string[][] sehirler2 = new string[3][];
-        sehirler2[0] = new string[] {"Ankara", "Ýstanbul", "Ýzmir"};
-        sehirler2[1] = new string[] {"Çankaya", "Kadýköy", "Buca"};
+        sehirler2[0] = new string[] {"Ankara", "ï¿½stanbul", "ï¿½zmir"};
+        sehirler2[1] = new string[] {"ï¿½ankaya", "Kadï¿½kï¿½y", "Buca"};
         sehirler2[2] = new string[] {"06", "34", "35"};
 
-        Debug.Log("Ýl: " + sehirler2[0][0] + ", Ýlçe: " + sehirler2[1][0] + ", Plaka Kodu: " + sehirler2[2][0]);
+        Debug.Log("ï¿½l: " + sehirler2[0][0] + ", ï¿½lï¿½e: " + sehirler2[1][0] + ", Plaka Kodu: " + sehirler2[2][0]);
 
 
     }

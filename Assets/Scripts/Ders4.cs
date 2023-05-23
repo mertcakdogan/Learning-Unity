@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class Ders4 : MonoBehaviour
 {
-    // string[] sinif = { "Mert Can", "Emre", "Berru", "Kevser", "Ali", "Ayþe", "Veli", "Leyla" };
+    // string[] sinif = { "Mert Can", "Emre", "Berru", "Kevser", "Ali", "Ayï¿½e", "Veli", "Leyla" };
     int sayi = 0;
     void Start()
     {
+
+        // Foreach - While - Do While DÃ¶ngÃ¼leri
         /*
         foreach (var ogrenciler in sinif)
         {
             Debug.Log(ogrenciler);
         }
-        // Daha çok oyun içerisinde örneðin bir dükkanda satýlan ürünlerin listelenmesi gibi durumlarda kullanýlýr.
+        // Daha ï¿½ok oyun iï¿½erisinde ï¿½rneï¿½in bir dï¿½kkanda satï¿½lan ï¿½rï¿½nlerin listelenmesi gibi durumlarda kullanï¿½lï¿½r.
         */
 
         /*
@@ -22,23 +24,23 @@ public class Ders4 : MonoBehaviour
             Debug.Log(sayi);
             sayi++;
         }
-        // Döngü içerisindeki koþul saðlandýðý sürece döngü devam eder.
+        // Dï¿½ngï¿½ iï¿½erisindeki koï¿½ul saï¿½landï¿½ï¿½ï¿½ sï¿½rece dï¿½ngï¿½ devam eder.
         */
 
         do
         {
-            Debug.Log("Ben Do While kullanýlarak yazýldým.");
+            Debug.Log("Ben Do While kullanï¿½larak yazï¿½ldï¿½m.");
             sayi++;
         } while (sayi < 10);
-        // Normalde 9 defa yazýlmasý gerekiyordu ama 10 defa yazýldý. Çünkü koþul döngü baþýnda do sayesinde kontrol ediliyor.
+        // Normalde 9 defa yazï¿½lmasï¿½ gerekiyordu ama 10 defa yazï¿½ldï¿½. ï¿½ï¿½nkï¿½ koï¿½ul dï¿½ngï¿½ baï¿½ï¿½nda do sayesinde kontrol ediliyor.
 
-        // while ve do while arasýndaki fark: while döngüsünde koþul saðlanmazsa hiçbir þey yazýlmaz. do while döngüsünde ise koþul saðlanmasa bile bir defa yazýlýr.
+        // while ve do while arasï¿½ndaki fark: while dï¿½ngï¿½sï¿½nde koï¿½ul saï¿½lanmazsa hiï¿½bir ï¿½ey yazï¿½lmaz. do while dï¿½ngï¿½sï¿½nde ise koï¿½ul saï¿½lanmasa bile bir defa yazï¿½lï¿½r.
 
-        // while ve do while döngülerinde de break ve continue kullanýlabilir.
+        // while ve do while dï¿½ngï¿½lerinde de break ve continue kullanï¿½labilir.
 
-        // break: Döngüyü sonlandýrýr. 
+        // break: Dï¿½ngï¿½yï¿½ sonlandï¿½rï¿½r. 
 
-        // continue: Döngüyü sonlandýrmaz ama o anki döngüyü atlar ve bir sonraki döngüye geçer.
+        // continue: Dï¿½ngï¿½yï¿½ sonlandï¿½rmaz ama o anki dï¿½ngï¿½yï¿½ atlar ve bir sonraki dï¿½ngï¿½ye geï¿½er.
     }
 
     
